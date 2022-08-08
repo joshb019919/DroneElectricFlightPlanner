@@ -3,7 +3,7 @@ def calc_drone_min_energy(route):
   a drone afloat when increasing altitude costs kilowatt hours
   of electricity and dropping altitude gains kilowatt hours.
 
-  --route A 3D array of location changes of x, y, and z.
+  --route A 3D array of location changes of x, y, and z directions.
 
   Only the z location matters, as x and y movement does not
   cost electricity.
